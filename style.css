@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    background: #f3f3f3;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Calculator{
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+#display{
+    width: 97%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: right;
+    color: black;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button{
+    height: 45px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ddd;
+}
